@@ -29,7 +29,7 @@ _“Secure the cloud. Harden the signal. Ship with confidence.”_
 I design and deliver **secure, scalable, and production-ready cloud security architectures** across **Azure, AWS, and GCP** — with deep experience in **CLOUD Migration**,**SIEM/SOC transformation**, and **enterprise security delivery**.
 
 - 🧠 **Principal Architect & Delivery Lead (Hyperscalers)**
-- 🧩 Specialized in **multi-cloud security architecture**, **Cloud modernization**, **Cloud operations enablement** and **SecOps modernization**
+- 🧩 Specialized in **multi-cloud security architecture**, **Cloud Modernization**, **Cloud Operations Enablement** and **SecOps Modernization**
 - 🧪 Strong focus on **security validation, threat detection**, and **operational excellence**
 - 🏆 Awards: Hi5 / Best Performance / Cyber Engineering recognition
 
