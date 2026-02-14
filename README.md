@@ -48,9 +48,9 @@ I design and deliver **secure, scalable, and production-ready cloud security arc
 
 ### 📌 Certifications / Training
 - **CCSP**
-- Kusto Detective Agency (KQL onboarding)
+- Azure / AWS Security and Architect 
 - IBM Cloud Essentials + Kubernetes
-- IBM QRadar SIEM (Associate Analyst)
+- ManyMore
 
 ---
 
