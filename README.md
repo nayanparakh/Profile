@@ -26,10 +26,10 @@ _“Secure the cloud. Harden the signal. Ship with confidence.”_
 
 ## 🌌 About Me (Operator Profile)
 
-I design and deliver **secure, scalable, and production-ready cloud security architectures** across **Azure, AWS, and GCP** — with deep experience in **SIEM/SOC transformation**, **Microsoft Sentinel**, **Microsoft Defender for Endpoint**, and enterprise security delivery.
+I design and deliver **secure, scalable, and production-ready cloud security architectures** across **Azure, AWS, and GCP** — with deep experience in **CLOUD Migration**,**SIEM/SOC transformation**, and **enterprise security delivery**.
 
 - 🧠 **Principal Architect & Delivery Lead (Hyperscalers)**
-- 🧩 Specialized in **multi-cloud security architecture**, **SecOps modernization**, and **security operations enablement**
+- 🧩 Specialized in **multi-cloud security architecture**, **Cloud modernization**, **Cloud operations enablement** and **SecOps modernization**
 - 🧪 Strong focus on **security validation, threat detection**, and **operational excellence**
 - 🏆 Awards: Hi5 / Best Performance / Cyber Engineering recognition
 
@@ -37,20 +37,34 @@ I design and deliver **secure, scalable, and production-ready cloud security arc
 
 ## 🧰 Core Arsenal (Tech Stack)
 
-### ☁️ Cloud & Security
-- **Azure / AWS / GCP**
-- Microsoft **Sentinel**, **Defender for Endpoint (MDE)**, cloud security controls & architecture
-- SIEM engineering, onboarding strategy, use-case design, detection lifecycle
+### ☁️ Cloud Platforms
+- **Microsoft Azure | AWS | Google Cloud (GCP)**
+- Landing zones, guardrails, governance, subscription/project structuring
+- Identity patterns for hybrid + cloud (directory integration, federation concepts)
 
-### 🕵️ Threat & Operations
-- Incident response, threat detection, log pipelines, SOC workflows
-- Experience with environments using tools like: QRadar, Proofpoint, CrowdStrike, ESET, Palo Alto WildFire, Nessus, WAFs
+### 🚀 Cloud Migration & Modernization
+- Migration strategy & execution: **rehost / replatform / refactor**
+- Hybrid connectivity & secure transport: **site-to-site VPN**, private access patterns, segmentation
+- Migration security: baseline hardening, identity/rbac mapping, policy enforcement, encryption & key management alignment
+- Workload onboarding: server/app discovery, dependency mapping (process-driven), cutover planning & risk controls
+- Post-migration optimization: cost + security posture improvements, operational handover, control validation
+
+### 🛡️ Security & SecOps
+- **Microsoft Sentinel** (SIEM): log onboarding, use-case engineering, detection lifecycle, tuning
+- **Microsoft Defender for Endpoint (MDE)**: rollout planning, coexistence/transition patterns
+- Threat detection engineering, SOC workflow design, incident readiness
+- Experience with environments/tools: QRadar, Proofpoint, CrowdStrike, ESET, Palo Alto WildFire, Nessus, WAFs
+
+### 🔭 Logging, Data Pipelines & Automation
+- Log pipelines, collectors, forwarding patterns, normalization & parsing approaches
+- Detection-as-code mindset (repeatable deployments, versioned rules/playbooks)
+- SOAR patterns and operational automation concepts
 
 ### 📌 Certifications / Training
 - **CCSP**
-- Azure / AWS Security and Architect 
+- Kusto Detective Agency (KQL)
 - IBM Cloud Essentials + Kubernetes
-- ManyMore
+- IBM QRadar SIEM (Associate Analyst)
 
 ---
 
