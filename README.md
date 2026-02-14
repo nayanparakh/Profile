@@ -6,7 +6,7 @@
 
 # 🛰️ Nayan Parakh — Cloud Security Architect (Azure | AWS | GCP)
 
-**Principal Architect & Delivery Lead | CCSP | SecOps x Cloud x GenAI-readiness**  
+**Principal Architect & Delivery Lead | CCSP |Cloud Migration x SecOps x GenAI-readiness**  
 _“Secure the cloud. Harden the signal. Ship with confidence.”_
 
 <a href="https://www.linkedin.com/in/nayan-parakh" target="_blank">
