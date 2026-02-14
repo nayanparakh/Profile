@@ -64,8 +64,6 @@ I design and deliver **secure, scalable, and production-ready cloud security arc
 
 ## 🧪 Featured Missions (Pin-worthy Ideas)
 
-> Replace these with your real repos as you publish them.
-
 - **sentinel-onboarding-blueprints** — log source onboarding patterns + DCR/DCE + parsing
 - **secops-usecase-library** — enterprise detection use-cases mapped to MITRE
 - **cloud-security-roadmaps** — 6–12 month security uplift plans (architecture + delivery)
