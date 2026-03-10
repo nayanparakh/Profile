@@ -6,7 +6,7 @@
 
 # 🛰️ Nayan Parakh — Cloud Security Architect (Azure | AWS | GCP)
 
-**Principal Architect & Delivery Lead | CCSP |Cloud Migration x SecOps x GenAI-readiness**  
+**Principal Architect & Delivery Lead | Cloud Migration x SecOps x GenAI-readiness**  
 _“Secure the cloud. Harden the signal. Ship with confidence.”_
 
 <a href="https://www.linkedin.com/in/nayan-parakh" target="_blank">
@@ -59,15 +59,7 @@ I design and deliver **secure, scalable, and production-ready cloud security arc
 - Log pipelines, collectors, forwarding patterns, normalization & parsing approaches
 - Detection-as-code mindset (repeatable deployments, versioned rules/playbooks)
 - SOAR patterns and operational automation concepts
-
-### 📌 Certifications / Training
-- **CCSP**
-- Kusto Detective Agency (KQL)
-- IBM Cloud Essentials + Kubernetes
-- IBM QRadar SIEM (Associate Analyst)
-
 ---
-
 ## 🧭 What I’m Building / Exploring Now
 
 - 🧿 **GenAI security & evaluation readiness** (guardrails, testing, red-teaming thinking)
