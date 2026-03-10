@@ -44,7 +44,7 @@ I design and deliver **secure, scalable, and production-ready cloud security arc
 
 ### 🚀 Cloud Migration & Modernization
 - Migration strategy & execution: **rehost / replatform / refactor**
-- Hybrid connectivity & secure transport: **site-to-site VPN**, private access patterns, segmentation
+- Hybrid connectivity & secure transport: site-to-site VPN, private access patterns, segmentation
 - Migration security: baseline hardening, identity/rbac mapping, policy enforcement, encryption & key management alignment
 - Workload onboarding: server/app discovery, dependency mapping (process-driven), cutover planning & risk controls
 - Post-migration optimization: cost + security posture improvements, operational handover, control validation
