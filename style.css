@@ -40,7 +40,7 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 /* Header + hamburger */
 .site-header {
   position: fixed; top: 0; left: 0; right: 0; z-index: 50;
-  display: flex; align-items: center; justify-content: space-between;
+  display: flex; align-items: center; justify-content: space-between; gap: 24px;
   padding: 14px clamp(16px, 4vw, 48px);
   background: linear-gradient(rgba(10, 15, 28, .92), rgba(10, 15, 28, .55));
   backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0, 191, 255, .15);
@@ -166,6 +166,19 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 /* Initial hidden state only when JS+GSAP is active */
 .js-anim .reveal, .js-anim [data-reveal], .js-anim [data-title] { opacity: 0; }
 
+/* The full nav needs ~1000px next to the logo; below that it collapses into the drawer */
+@media (max-width: 1000px) {
+  .burger { display: block; }
+  .nav {
+    position: fixed; top: 0; right: 0; height: 100vh; height: 100dvh; width: min(80vw, 320px);
+    flex-direction: column; justify-content: center; align-items: flex-start; gap: 22px; padding: 40px 32px;
+    background: rgba(10, 15, 28, .97); border-left: 1px solid var(--cyan); box-shadow: -10px 0 40px rgba(0, 191, 255, .25);
+    transform: translateX(105%); transition: transform .4s cubic-bezier(.7, 0, .2, 1); z-index: -1;
+  }
+  .nav.open { transform: none; }
+  .nav a { font-size: 1.3rem; }
+}
+
 /* Tablet */
 @media (max-width: 1024px) {
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
@@ -185,15 +198,6 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 
 /* Mobile */
 @media (max-width: 760px) {
-  .burger { display: block; }
-  .nav {
-    position: fixed; top: 0; right: 0; height: 100vh; height: 100dvh; width: min(80vw, 320px);
-    flex-direction: column; justify-content: center; align-items: flex-start; gap: 22px; padding: 40px 32px;
-    background: rgba(10, 15, 28, .97); border-left: 1px solid var(--cyan); box-shadow: -10px 0 40px rgba(0, 191, 255, .25);
-    transform: translateX(105%); transition: transform .4s cubic-bezier(.7, 0, .2, 1); z-index: -1;
-  }
-  .nav.open { transform: none; }
-  .nav a { font-size: 1.3rem; }
   .hero { padding-top: 96px; }
   .btn-row .btn { width: 100%; }
   .avatar { animation: none; }
