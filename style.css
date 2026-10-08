@@ -65,10 +65,11 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 /* Hero */
 .hero {
   min-height: 100vh; min-height: 100svh;
-  display: grid; grid-template-columns: .95fr 1.05fr; align-items: center; gap: clamp(24px, 4vw, 64px);
+  display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); align-items: center; gap: clamp(24px, 4vw, 64px);
   padding: 110px clamp(16px, 6vw, 96px) 70px; position: relative;
 }
 .eyebrow { font: 600 1rem var(--sub); letter-spacing: .3em; color: var(--cyan); margin: 0 0 14px; }
+.hero-copy { max-width: 660px; }
 .hero h1 { font-size: clamp(1.7rem, 3.6vw, 3.1rem); font-weight: 900; text-shadow: 0 0 24px rgba(0, 191, 255, .5); }
 .hero h1 .sep { color: var(--cyan); font-weight: 500; }
 .subtitle { font: 600 clamp(1.1rem, 2vw, 1.5rem) var(--sub); color: var(--cyan); letter-spacing: .06em; margin: 18px 0 30px; text-shadow: var(--glow); }
@@ -99,7 +100,7 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 @keyframes pulse { 50% { transform: scale(2.2); opacity: .5; } }
 
 .avatar {
-  position: relative; z-index: 1; height: min(78vh, 760px); aspect-ratio: 647 / 1827;
+  position: relative; z-index: 1; height: clamp(440px, calc(100svh - 200px), 920px); aspect-ratio: 647 / 1827;
   animation: float 6s ease-in-out infinite;
 }
 @keyframes float { 50% { transform: translateY(-10px); } }
@@ -169,8 +170,15 @@ main, .footer, .site-header { position: relative; z-index: 2; }
 @media (max-width: 1024px) {
   .grid-4 { grid-template-columns: repeat(2, 1fr); }
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
-  .hero { grid-template-columns: 1fr; text-align: center; }
   .btn-row { justify-content: center; }
+  .hero .btn-row { justify-content: flex-start; }
+}
+
+/* Hero stacks only on narrow screens, so scaled-up desktop displays keep the side-by-side layout */
+@media (max-width: 860px) {
+  .hero { grid-template-columns: 1fr; text-align: center; }
+  .hero-copy { margin: 0 auto; }
+  .hero .btn-row { justify-content: center; }
   .hero-visual { max-width: 460px; margin: 0 auto; }
   .avatar { height: min(56vh, 520px); }
 }
