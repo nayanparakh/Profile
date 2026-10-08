@@ -120,7 +120,7 @@
   // Hero intro
   gsap.timeline({ defaults: { ease: 'power3.out' } })
     .fromTo('.hero .reveal', { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .9, stagger: .15 }, 0.1)
-    .from('.photo-frame', { opacity: 0, scale: .92, duration: 1.1 }, 0.2);
+    .from('.avatar', { opacity: 0, y: 40, duration: 1.1 }, 0.2);
 
   // Section titles + cards
   gsap.utils.toArray('[data-title]').forEach((el) => {
@@ -139,11 +139,11 @@
   // Desktop-only parallax
   ScrollTrigger.matchMedia({
     '(min-width: 1025px)': () => {
-      gsap.to('.photo-frame', { yPercent: -8, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
+      gsap.to('.avatar', { yPercent: -6, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
       gsap.to('.graph', { yPercent: 14, xPercent: -4, ease: 'none', scrollTrigger: { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true } });
       gsap.to('.grid-bg', { yPercent: -6, ease: 'none', scrollTrigger: { trigger: document.body, start: 'top top', end: 'bottom bottom', scrub: true } });
       const hero = document.querySelector('.hero');
-      const frame = document.querySelector('.photo-frame');
+      const frame = document.querySelector('.avatar img');
       const move = (e) => {
         const x = (e.clientX / window.innerWidth - .5) * 2;
         const y = (e.clientY / window.innerHeight - .5) * 2;
